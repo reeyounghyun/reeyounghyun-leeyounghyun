@@ -1,10 +1,10 @@
 import './App.css';
-import Porject from './componentes/project.jsx'
+import PageTitle from './common/PageTitle';
 
 function App() {
   return (
-    <div>
-      <Porject />
+    <div className='App'>
+      <PageTitle />
     </div>
   );
 }
