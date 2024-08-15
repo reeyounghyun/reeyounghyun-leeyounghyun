@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Pretendard-Regular';
+}
+
+.h1-title{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +47,80 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-wave {
+  animation: wave 2s infinite;
+}
+
+/* 기존 CSS 내용 유지 */
+
+@keyframes wave-vertical {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wave-horizontal {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+}
+
+@keyframes wave-diagonal {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(5px, -5px); }
+}
+
+@keyframes wave-circular {
+  0% { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+}
+
+.animate-wave-vertical {
+  animation: wave-vertical 2s infinite;
+}
+
+.animate-wave-horizontal {
+  animation: wave-horizontal 2s infinite;
+}
+
+.animate-wave-diagonal {
+  animation: wave-diagonal 2s infinite;
+}
+
+.animate-wave-circular {
+  animation: wave-circular 4s linear infinite;
+}
+
+@keyframes slide-left-to-right {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* .animate-slide {
+  display: inline-block;
+  white-space: nowrap;
+  animation: slide-left-to-right 55s linear infinite;
+} */
+
+.big-title{
+  -webkit-text-stroke: 2px rgb(241 140 140);
+  color: transparent;
+}
+
+.mv-text {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / 74%);
+}
+
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
