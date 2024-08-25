@@ -21,7 +21,10 @@ module.exports = {
       animation: {
         'wave': 'wave 2s infinite',
         'slide-left-to-right': 'slide-left-to-right 15s linear infinite',
-      }
+      },
+      colors: {
+        'custom-gray': 'rgb(105 105 105 / 78%)',
+      },
     },
   },
   variants: {},

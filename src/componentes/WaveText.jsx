@@ -1,5 +1,6 @@
 import React from 'react';
 
+//텍스트 애니메이션
 const WaveText = ({ text, direction = 'vertical' }) => {
   const getAnimationStyle = () => {
     if (direction === 'slide') {
