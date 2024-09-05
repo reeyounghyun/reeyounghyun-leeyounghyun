@@ -1,22 +1,26 @@
 import './App.css';
 import Footer from './common/Footer';
 import PageTitle from './common/PageTitle';
-import Guestbook from './componentes/Guestbook';
-import Home from './pages/Home';
+import Section1 from './componentes/section1';
+import Section2 from './componentes/section2';
+import Section3 from './componentes/section3';
 
 function App() {
   return (
-    <>
+    <div id="parallax__cont">
       <PageTitle />
-      <section className='flex items-center justify-center text-white truncate bg-black border-4 border-red-600 h-dvh'>
-        <div className='leading-tight uppercase text-8xl'>
-          <span className='block text-transparent' style={{WebkitTextStroke:'2px #b1dd40'}}>GSAP</span>
-          ScrollTrigger
-          <Home />
-        </div>
-      </section>
+      {/* title */}
+      <main className="overflow-hidden" id="parallax__cont">
+        <Section1 />
+        <Section2 />
+        <main id="horizontal">
+          <Section3 />
+          <Section3 />
+        </main>
+      
+      </main>
       <Footer />
-    </> 
+    </div>
   );
 }
 

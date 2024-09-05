@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="bg-white ">
       <div className='bg-black border-4 border-red-600 py-[4rem] rounded-t-[50px] '>
-        <section className='layout flex justify-around  gap-[15px] p-2 md:gap-[100px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] '>
+        <section className='flex justify-around items-end  gap-[15px] p-2 md:gap-[100px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] '>
           <div className='flex flex-col items-center justify-center flex-1 leading-tight uppercase text-8xl'>
             <strong className='block md:text-[5rem] sm:text-5xl text-3xl text-center pt-[7rem] text-white font'>Thank You</strong>
             <p className="block pb-4 mx-auto sm:w-96"> 
