@@ -260,7 +260,7 @@ body {
 }
 
 .parallax__item__num {
-  font-size: 5vw;
+  font-size: 3vw;
   position: absolute;
   right: 20px;
   bottom: 20px;
@@ -307,3 +307,63 @@ body {
   color: #fff;
   font-size: 5vw;
 }
+
+#parallax__cont {
+  overflow: hidden;
+}
+
+#horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 500%;
+}
+
+#horizontal > section {
+  width: 100%;
+}
+
+#section3{
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+#section3 .parallax__item__img {
+  position: absolute;
+  left: -5%; 
+  top: -5%;
+  width: 110%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: saturate(0%);
+  transition: all 1s;
+}
+
+#section3.parallax__item {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10rem;
+}
+
+.soriaImag {
+  object-fit: cover;
+  height: 260px;
+  width: 100%;
+}
+
+#section4.parallax__item {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10rem;
+}
+
+

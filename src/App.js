@@ -4,6 +4,7 @@ import PageTitle from './componentes/layout/PageTitle';
 import Section1 from './componentes/section1';
 import Section2 from './componentes/section2';
 import Section3 from './componentes/section3';
+import Section4 from './componentes/section4';
 
 
 function App() {
@@ -14,10 +15,10 @@ function App() {
       <main className="overflow-hidden" id="parallax__cont">
         <Section1 />
         <Section2 />
-        <main id="horizontal">
+        <div>
           <Section3 />
-          <Section3 />
-        </main>
+          <Section4 />
+        </div>
       </main>
       <Footer />
     </div>

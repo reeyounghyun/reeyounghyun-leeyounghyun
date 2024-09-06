@@ -1,4 +1,4 @@
-import React, {useRef } from 'react';
+import React, { useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import TextEffect2 from 'Hooks/TextEffect2';
@@ -31,21 +31,21 @@ const Section2 = () => {
       <div ref={textRef} className="text4 parallax__item__text">VS Code </div>
       <div ref={textRef} className="text5 parallax__item__text">VS Studio </div>
 
-      <div ref={textRef} class="text6 parallax__item__text t6">[2.협업 툴]</div>
-      <div ref={textRef} class="text7 parallax__item__text t7">노션 Notion</div>
-      <div ref={textRef} class="text8 parallax__item__text t8">포토샵</div>
-      <div ref={textRef} class="text9 parallax__item__text t9">제플린</div>
-      <div ref={textRef} class="text10 parallax__item__text t10">피그마</div>
-      <div ref={textRef} class="text11 parallax__item__text t11">지라 Jira</div>
-      <div ref={textRef} class="text12 parallax__item__text t12">슬렉 Slack</div>
-      <div ref={textRef} class="text13 parallax__item__text t13">노션 Notion</div>
+      <div ref={textRef} className="text6 parallax__item__text t6">[2.협업 툴]</div>
+      <div ref={textRef} className="text7 parallax__item__text t7">노션 Notion</div>
+      <div ref={textRef} className="text8 parallax__item__text t8">포토샵</div>
+      <div ref={textRef} className="text9 parallax__item__text t9">제플린</div>
+      <div ref={textRef} className="text10 parallax__item__text t10">피그마</div>
+      <div ref={textRef} className="text11 parallax__item__text t11">지라 Jira</div>
+      <div ref={textRef} className="text12 parallax__item__text t12">슬렉 Slack</div>
+      <div ref={textRef} className="text13 parallax__item__text t13">노션 Notion</div>
 
-      <div ref={textRef} class="text14 parallax__item__text t14">[개발 언어]</div>
-      <div ref={textRef} class="text15 parallax__item__text t15">HTML5</div>
-      <div ref={textRef} class="text16 parallax__item__text t16">CSS+SCSS</div>
-      <div ref={textRef} class="text17 parallax__item__text t17">JQuery</div>
-      <div ref={textRef} class="text18 parallax__item__text t18">javaScript</div>
-      <div ref={textRef} class="text19 parallax__item__text t19">React+GSAP</div>
+      <div ref={textRef} className="text14 parallax__item__text t14">[개발 언어]</div>
+      <div ref={textRef} className="text15 parallax__item__text t15">HTML5</div>
+      <div ref={textRef} className="text16 parallax__item__text t16">CSS+SCSS</div>
+      <div ref={textRef} className="text17 parallax__item__text t17">JQuery</div>
+      <div ref={textRef} className="text18 parallax__item__text t18">javaScript</div>
+      <div ref={textRef} className="text19 parallax__item__text t19">React+GSAP</div>
       <div ref={textRef} className="text20 parallax__item__text">성공!!!! </div>
     </section>
   );
