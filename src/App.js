@@ -5,6 +5,7 @@ import Section1 from './componentes/section1';
 import Section2 from './componentes/section2';
 import Section3 from './componentes/section3';
 
+
 function App() {
   return (
     <div id="parallax__cont">
@@ -17,7 +18,6 @@ function App() {
           <Section3 />
           <Section3 />
         </main>
-      
       </main>
       <Footer />
     </div>
