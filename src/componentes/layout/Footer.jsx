@@ -1,5 +1,5 @@
 import React from 'react'
-import Guestbook from '../componentes/Guestbook';
+import Guestbook from '../Guestbook';
 
 function Footer() {
   return (

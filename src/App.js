@@ -1,6 +1,6 @@
 import './App.css';
-import Footer from './common/Footer';
-import PageTitle from './common/PageTitle';
+import Footer from './componentes/layout/Footer';
+import PageTitle from './componentes/layout/PageTitle';
 import Section1 from './componentes/section1';
 import Section2 from './componentes/section2';
 import Section3 from './componentes/section3';
