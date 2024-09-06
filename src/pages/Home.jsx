@@ -1,5 +1,5 @@
 import React from 'react';
-import WaveText from '../componentes/WaveText.jsx';
+import WaveText from '../temp-components/WaveText.jsx';
 // import emojiMovie from '../emojimovie.gif';
 
 function Home() {
