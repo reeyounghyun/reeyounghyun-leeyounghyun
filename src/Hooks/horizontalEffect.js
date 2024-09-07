@@ -10,7 +10,7 @@ const Horizontal = () => {
 
   useEffect(() => {
     const horizontalScroll  = horizontalRef.current;
-    let sections = gsap.utils.toArray('.horizontal-section');
+    let sections = gsap.utils.toArray('.section');
 
     gsap.to(sections, {
       xPercent: -100 * (sections.length - 1), // 각 섹션의 너비만큼 이동

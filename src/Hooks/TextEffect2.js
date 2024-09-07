@@ -32,11 +32,12 @@ const TextEffect2 = (sectionRef, textRef) => {
       animation: ani7,
       trigger: "#section2",
       start: "top top", 
-      end: "+=6000",
+      // end: "+=6000",
+      end: "+=6000 top", // 섹션 끝날 때까지 고정
       scrub: true, // 마우스 스크롤 속도에 따라 속도 조절
       pin: true, // 배경 고정 옵션
       anticipatePin: 1, // 부드럽게 전환옵션
-      markers: true 
+      markers: false 
     });
 
     // 정리 함수 반환

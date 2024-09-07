@@ -23,7 +23,7 @@ const TextEffect1 = (sectionRef, textRef) => {
       scrub: true,
       pin: true, 
       anticipatePin: 1,
-      markers: true
+      markers: false
     });
 
     // 정리 함수 반환
