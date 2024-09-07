@@ -356,14 +356,18 @@ body {
   width: 100%;
 }
 
+
 #section4.parallax__item {
   width: 100%;
   height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: start;
-  padding-left: 10rem;
+  justify-content: center;
 }
 
-
+#section4.parallax__item .item{
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
