@@ -5,6 +5,8 @@ import Section1 from './componentes/section1';
 import Section2 from './componentes/section2';
 // import Horizontal from 'componentes/layout/horizontal';
 import Section4 from 'componentes/section4';
+import Section5 from 'componentes/section5';
+import Section6 from 'componentes/section6';
 
 
 
@@ -19,6 +21,8 @@ function App() {
           <Horizontal/>
         </div> */}
         <Section4/>
+        <Section5/>
+        <Section6/>
       </main>
       <Footer />
     </div>

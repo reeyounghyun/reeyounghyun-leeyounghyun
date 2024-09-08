@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { useRef } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const Step01 = () => {
+const Section4 = () => {
     gsap.registerPlugin(ScrollTrigger); // 스크롤트리커 등록 : 이 부분부터 스크롤트리거 작성한다고 함수등록
     const triggerRef = useRef();
     const gsap01Ref = useRef();
@@ -51,7 +51,7 @@ const Step01 = () => {
       ref={triggerRef} 
       className='parallax__item bg-white text-black flex justify-center items-start relative w-100'
       >
-      <span className="absolute bottom-5 right-5 text-[4vw] leading-none">03.가로</span>
+      <span className="absolute bottom-5 right-5 text-[4vw] leading-none">04.세로</span>
       <div class="flex flex-col justify-around gap-40 item">
         <div class="mb-5 flex items-start justify-between gap-32" >
           <h5 class="text-6xl font-bold leading-tight flex items-start flex-col flex-1">
@@ -136,4 +136,4 @@ const Step01 = () => {
   )
 }
 
-export default Step01
+export default Section4
