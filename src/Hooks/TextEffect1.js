@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+//Section1
 gsap.registerPlugin(ScrollTrigger);
 
 const TextEffect1 = (sectionRef, textRef) => {
