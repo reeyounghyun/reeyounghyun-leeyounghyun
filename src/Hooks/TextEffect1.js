@@ -24,6 +24,7 @@ const TextEffect1 = (sectionRef, textRef) => {
       scrub: true,
       pin: true, 
       anticipatePin: 1,
+      pinSpacing: true,
       markers: false
     });
 
