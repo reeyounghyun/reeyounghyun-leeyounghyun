@@ -11,7 +11,6 @@ const Section6 = () => {
 
   return (
     <section id="Section6" ref={sectionRef} className="parallax__item">
-      <span className="absolute bottom-5 right-5 text-[4vw] leading-none">06.세로</span>
       {texts.map((text, index) => (
         <div
           key={index}
@@ -21,8 +20,6 @@ const Section6 = () => {
           >
           {text}
         </div>
-
-
       ))}
     </section>
   );

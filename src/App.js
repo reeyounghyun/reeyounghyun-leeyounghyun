@@ -8,8 +8,6 @@ import Section4 from 'componentes/section4';
 import Section5 from 'componentes/section5';
 import Section6 from 'componentes/section6';
 
-
-
 function App() {
   return (
     <div id="parallax__cont">
