@@ -37,6 +37,7 @@ const TextEffect2 = (sectionRef, textRef) => {
       scrub: true, // 마우스 스크롤 속도에 따라 속도 조절
       pin: true, // 배경 고정 옵션
       anticipatePin: 1, // 부드럽게 전환옵션
+      pinSpacing: true,
       markers: false 
     });
 
