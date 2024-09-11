@@ -35,7 +35,7 @@ const AnEffect4 = (triggerRef, gsapRefs) => {
           scrollTrigger: {
             trigger: triggerRef.current, 
             start: 'top', 
-            end: 'bottom 10px',
+            end: 'bottom bottom',
             scrub: 1, 
             pin: true, 
             pinSpacing: true,
