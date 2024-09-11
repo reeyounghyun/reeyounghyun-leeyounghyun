@@ -78,11 +78,11 @@ const Section5 = () => {
       <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">05.Education&Career</span>
       <div class="item">
         <div class="absolute top-[75px] left-[23px]">
-          <h3 class="text-xl pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
+          <h3 class="lg:text-xl text-lg pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
             <span class="inline-block">경력 요약</span>
           </h3>
           <div class="flex flex-col items-start">
-            <p class="text-base font-bold leading-snug text-[#ccc]">
+            <p class="lg:text-base text-sm font-bold leading-snug text-[#ccc]">
               2019년부터 현재까지 다양한 웹 개발 프로젝트와 교육 경험을 쌓아왔습니다. <br/>
               프론트엔드와 백엔드 개발, UI/UX 디자인, 그리고 교육 분야에서의 경험을 통해<br/>
               폭넓은 기술 스택과 실무 능력을 갖추고 있습니다.
@@ -91,7 +91,7 @@ const Section5 = () => {
         </div>
         {/* title */}
         <ul className='itemBox'>
-          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer'>
+          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs max-w-48'>
           <div className="second-item">
             {skillCategories.map((category, index) => (
               <div key={index} className="mb-6 text-black">
@@ -111,7 +111,7 @@ const Section5 = () => {
             ))}
             </div>
           </li>
-          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer'>
+          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs max-w-48'>
             <div className="third-item">
               {skillCategories2.map((category, index) => (
                 <div key={index} className="mb-6">
