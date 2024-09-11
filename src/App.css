@@ -381,8 +381,8 @@ body {
 
 .soriaImag {
   object-fit: cover;
-  height: 260px;
-  width: 100%;
+  /* height: 260px;
+  width: 100%; */
 }
 
 #section4.parallax__item {
