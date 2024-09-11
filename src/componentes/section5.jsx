@@ -77,7 +77,7 @@ const Section5 = () => {
       >
       <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">05.Education&Career</span>
       <div class="item">
-        <div class="absolute lg:top-[10rem] top-[75px] lg:left-[10rem] left-[23px]">
+        <div class="absolute 2xl:top-[10rem] md:top-[75px] top-0 2xl:left-[10rem] left-[23px]">
           <h3 class="lg:text-xl text-lg pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
             <span class="inline-block">경력 요약</span>
           </h3>
@@ -91,7 +91,7 @@ const Section5 = () => {
         </div>
         {/* title */}
         <ul className='itemBox'>
-          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs max-w-48'>
+          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer g:max-w-xs md:max-w-48 lg:w-full w-[350px]'>
           <div className="second-item">
             {skillCategories.map((category, index) => (
               <div key={index} className="mb-6 text-black">
@@ -111,7 +111,7 @@ const Section5 = () => {
             ))}
             </div>
           </li>
-          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs max-w-48'>
+          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs md:max-w-48 lg:w-full w-[350px]'>
             <div className="third-item">
               {skillCategories2.map((category, index) => (
                 <div key={index} className="mb-6">

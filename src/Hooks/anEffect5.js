@@ -55,13 +55,13 @@ const AnEffect5 = (triggerRef, gsapRefs) => {
         // 첫 번째 카드: 모바일에서의 x축 이동과 크기 변화
         timelineCards.fromTo(gsapRefs[0].current, 
           { x: 500, y: 0, scale: 0, opacity: 0 },  // 초기 위치와 크기 다르게 설정
-          { x: 0, y: 150, scale: 0.7, opacity: 1 }  // 모바일에서 작은 크기로
+          { x: -30, y: 150, scale: 0.7, opacity: 1 }  // 모바일에서 작은 크기로
         );
 
         // 두 번째 카드: 모바일에서의 y축 이동과 크기 변화
         timelineCards.fromTo(gsapRefs[1].current, 
           { x: -500, y: 0, scale: 0, opacity: 0 },  // 초기 위치와 크기 다르게 설정
-          { x: 0, y:50, scale: 0.7, opacity: 1 }  // 모바일에서 작은 크기로
+          { x: -30, y:20, scale: 0.7, opacity: 1 }  // 모바일에서 작은 크기로
         );
       }
     });

@@ -19,7 +19,6 @@ const AnEffect4 = (triggerRef, gsapRefs) => {
             end: 'bottom 10px', //트리거 종료점
             scrub: 1, //스크롤과 애니메이션이 연동되도록 설정
             pin: true, 
-            pinSpacing: true,
             markers: true, 
           }
         });
@@ -35,18 +34,17 @@ const AnEffect4 = (triggerRef, gsapRefs) => {
           scrollTrigger: {
             trigger: triggerRef.current, 
             start: 'top', 
-            end: 'bottom bottom',
+            end: '+=3000',
             scrub: 1, 
             pin: true, 
-            pinSpacing: true,
-            markers: true, 
+            markers: false, 
           }
         });
 
         gsapRefs.forEach(ref => {
           timelineCards.fromTo(ref.current, 
-            { x: -50, opacity: 0, height: '1000px' },  // 초기 높이 설정
-            { x: 0, opacity: 1, height: '100px' }     // 애니메이션 후 높이 증가
+            { x: -50, opacity: 0, height: '1000vh', duration: 1.5 },  // 초기 높이 설정
+            { x: 0, opacity: 1, height: '100px', duration: 1.5  }     // 애니메이션 후 높이 증가
           );
         });
       }

@@ -22,8 +22,8 @@ const Section4 = () => {
       className='parallax__item bg-white text-black flex justify-center items-start relative w-100 min-h-screen'
       >
       <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">04.Porject</span>
-      <div class="flex flex-col justify-around md:justify-start md:h-full md:mt-16 lg:gap-40 gap-20 item">
-        <div class="pl-[1.25rem] lg:pt-24 lg:pl-0 lg:mb-5 flex items-start justify-between lg:flex-row flex-col lg:gap-24 md:gap-2 md:p-5">
+      <div class="flex flex-col justify-around md:justify-start md:h-full md:mt-16 lg:gap-40 gap-10 item">
+        <div class="pl-[1.25rem] md:pt-[3rem] lg:pt-24 pt-0 lg:pl-0 lg:mb-5 flex items-start justify-between lg:flex-row flex-col lg:gap-24 md:gap-2 md:p-5">
           <h5 class="lg:text-6xl text-2xl pb-3 lg:pb-0 font-bold leading-tight flex items-start flex-col flex-1">
             <span class="inline-block">나의 도전은</span>
             <span class="inline-block">진행형😊</span>
@@ -41,8 +41,8 @@ const Section4 = () => {
         <ul className='flex lg:items-conter items-start justify-between md:flex-row flex-col lg:gap-1 gap-4'>
           <li ref={gsap01Ref} className='flex-1 rounded-3xl px-5  lg:max-w-xs'>
             <div className=" text-black bg-white border-blue-400 shadow-md rounded-xl">
-              <div className='md:block flex'>
-                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs max-w-48 h-full" />
+              <div className='md:block flex w-full'>
+                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs md:max-w-48 max-w-24 h-full" />
                 <div className='md:block p-3 flex flex-col items-start justify-around'>
                   <div className=" project-text-1">
                       <div className="flex flex-col gap-3 lg:text-center text-left txt-box-1">
@@ -59,8 +59,8 @@ const Section4 = () => {
           </li>
           <li ref={gsap02Ref} className='flex-1 rounded-3xl px-5  lg:max-w-xs'>
             <div className=" text-black bg-white border-blue-400 shadow-md rounded-xl">
-              <div className='md:block flex'>
-                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs max-w-48 h-full" />
+              <div className='md:block flex w-full'>
+                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs md:max-w-48 max-w-24 h-full" />
                 <div className='md:block p-3 flex flex-col items-start justify-around'>
                   <div className=" project-text-1">
                       <div className="flex flex-col gap-3 lg:text-center text-left txt-box-1">
@@ -77,8 +77,8 @@ const Section4 = () => {
           </li>
           <li ref={gsap03Ref} className='flex-1 rounded-3xl px-5  lg:max-w-xs'>
             <div className=" text-black bg-white border-blue-400 shadow-md rounded-xl">
-              <div className='md:block flex'>
-                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs max-w-48 h-full" />
+              <div className='md:block flex w-full'>
+                <img src="/enter_img12.png" alt="소리아월렛" className="object-cover w-full rounded lg:max-w-xs md:max-w-48 max-w-24 h-full" />
                 <div className='md:block p-3 flex flex-col items-start justify-around'>
                   <div className=" project-text-1">
                       <div className="flex flex-col gap-3 lg:text-center text-left txt-box-1">
