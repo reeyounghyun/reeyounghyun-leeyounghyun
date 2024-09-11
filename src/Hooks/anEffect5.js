@@ -27,13 +27,13 @@ const AnEffect5 = (triggerRef, gsapRefs) => {
         // 첫 번째 카드: x축 이동과 opacity 변화
         timelineCards.fromTo(gsapRefs[0].current, 
           { x: 1000, y: 0, scale: 0, opacity: 0 }, 
-          { x: 500, y: 100, scale: 0.8, opacity: 1 }
+          { x: 800, y: 100, scale: 0.8, opacity: 1 }
         );
 
         // 두 번째 카드: y축 이동과 scale 변화
         timelineCards.fromTo(gsapRefs[1].current, 
           { x: -1000, y: 0, scale: 0, opacity: 0 }, 
-          { x: -20, y: 25, scale: 0.8, opacity: 1 }
+          { x: 50, y: 25, scale: 0.8, opacity: 1 }
         );
       },
 

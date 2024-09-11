@@ -77,7 +77,7 @@ const Section5 = () => {
       >
       <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">05.Education&Career</span>
       <div class="item">
-        <div class="absolute top-[75px] left-[23px]">
+        <div class="absolute lg:top-[10rem] top-[75px] lg:left-[10rem] left-[23px]">
           <h3 class="lg:text-xl text-lg pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
             <span class="inline-block">경력 요약</span>
           </h3>
