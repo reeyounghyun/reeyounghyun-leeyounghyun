@@ -3,7 +3,7 @@ import Footer from './componentes/layout/Footer';
 import PageTitle from './componentes/layout/PageTitle';
 import Section1 from './componentes/section1';
 import Section2 from './componentes/section2';
-// import Horizontal from 'componentes/layout/horizontal';
+import Horizontal from 'componentes/horizontal';
 import Section4 from 'componentes/section4';
 import Section5 from 'componentes/section5';
 import Section6 from 'componentes/section6';
@@ -15,9 +15,7 @@ function App() {
       <main className="overflow-hidden">
         <Section1 />
         <Section2 />
-        {/* <div className='block'>
-          <Horizontal/>
-        </div> */}
+        <Horizontal/>
         <Section4/>
         <Section5/>
         <Section6/>

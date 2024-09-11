@@ -18,6 +18,11 @@ module.exports = {
           '100%': { transform: 'translateX(100%)' },
         },
       },
+      variants: {
+        extend: {
+          display: ['responsive'],
+        },
+      },
       animation: {
         'wave': 'wave 2s infinite',
         'slide-left-to-right': 'slide-left-to-right 15s linear infinite',
