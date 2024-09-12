@@ -6,8 +6,7 @@ import Section2 from './componentes/section2';
 import Section4 from 'componentes/section4';
 import Section5 from 'componentes/section5';
 import Section6 from 'componentes/section6';
-import Horizontal from 'componentes/horizontal';
-import Porject from 'componentes/layout/porject';
+import Porject from 'componentes/porject';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <main className="overflow-hidden">
         <Section1 />
         <Porject/>
-        <Horizontal/>
         <Section2 />
         <Section4/>
         <Section5/>
