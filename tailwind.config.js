@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: [ "./src/**/*.{js,jsx,ts,tsx}",],
- 
+  content: [ "./src/**/*.{js,jsx,ts,tsx}",], 
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Pretendard-Regular'],
+        sans: ['Pretendard-Regular'], // Pretendard-Regular 폰트가 실제로 포함되었는지 확인
       },
       keyframes: {
         wave: {
@@ -18,11 +17,6 @@ module.exports = {
           '100%': { transform: 'translateX(100%)' },
         },
       },
-      variants: {
-        extend: {
-          display: ['responsive'],
-        },
-      },
       animation: {
         'wave': 'wave 2s infinite',
         'slide-left-to-right': 'slide-left-to-right 15s linear infinite',
@@ -32,6 +26,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [],
 }
