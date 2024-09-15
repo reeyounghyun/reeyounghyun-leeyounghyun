@@ -75,19 +75,18 @@ const Section5 = () => {
       ref={triggerRef} 
       className='parallax__item flex justify-center items-start relative w-100'
       >
-      <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">05.Education&Career</span>
+      {/* <span className="absolute top-5 left-5 text-[2vw] leading-none text-green-600 font-semibold">05.Education&Career</span> */}
       <div class="item">
         <div class="absolute 2xl:top-[10rem] md:top-[75px] top-0 2xl:left-[10rem] left-[23px]">
-          <h3 class="lg:text-xl text-lg pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
-            <span class="inline-block">경력 요약</span>
+          <h3 class="lg:text-3xl text-lg pb-3 font-bold leading-tight flex items-start flex-col flex-1 text-white">
+            <span class="inline-block">경력 요약🤔</span>
           </h3>
           <div class="flex flex-col items-start">
-            <p class="lg:text-base text-sm font-bold leading-snug text-[#ccc]">
-              2019년부터 현재까지 다양한 웹 개발 프로젝트와 교육 경험을 쌓아왔습니다. <br/>
-              프론트엔드와 백엔드 개발, UI/UX 디자인, 그리고 교육 분야에서의 경험을 통해<br/>
-              폭넓은 기술 스택과 실무 능력을 갖추고 있습니다.
+            <p class="lg:text-xl text-base font-bold leading-snug text-[#ccc] max-w-[600px] w-full whitespace-break-spaces break-keep">
+              "2019년부터 웹 개발 분야에서 다양한 프로젝트와 교육을 통해 퍼블리셔로서의 경력을 시작하였으며, HTML, CSS, JavaScript에 대한 탄탄한 기초를 바탕으로, 리액트와 같은 최신 프론트엔드 기술을 습득하고 적용해 왔습니다. 이를 통해 다양한 환경에서의 프로젝트 경험과 실무 능력을 쌓아, 폭넓은 기술 스택을 활용한 문제 해결 능력을 키웠습니다"
             </p>
           </div>
+        ,.//.,[]\;,.[]][[:]]
         </div>
         {/* title */}
         <ul className='itemBox'>

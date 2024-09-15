@@ -22,7 +22,7 @@ const TextEffect6 = (sectionRef, textRefs) => {
               scrub: true,
               pin: true,
               anticipatePin: 1,
-              markers: true,
+              markers: false,
             },
           });
 

@@ -20,7 +20,7 @@ const useHorizontalScroll = (triggerRef, listRefs, imgBoxRefs, textBoxRefs, numR
             scrub: 1,
             start: 'center center',
             end: '300%',
-            markers: true,
+            markers: false,
           },
         });
 

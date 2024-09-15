@@ -1,51 +1,72 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import TextEffect2 from 'Hooks/TextEffect2';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Section2 = () => {
-  const sectionRef = useRef(null);
-  const textRef = useRef(null);
+  const containerRef = useRef(null);
+  const textRefs = useRef([]);
 
-  // 커스텀 훅 호출
-  TextEffect2(sectionRef, textRef);
-  
+  useEffect(() => {
+    const texts = textRefs.current;
+
+    // GSAP 애니메이션 설정
+    const textAnimation = gsap.timeline();
+
+    texts.forEach((text, index) => {
+      textAnimation.fromTo(text, 
+        { autoAlpha: 0, y: 50 },  // 초기 상태 (보이지 않음)
+        { autoAlpha: 1, y: 0, duration: 1, delay: index * 0.2 }  // 애니메이션 후 상태 (보임)
+      );
+    });
+
+    const scrollTriggerInstance = ScrollTrigger.create({
+      animation: textAnimation,
+      trigger: containerRef.current,
+      start: "top top",
+      end: "+=6000 top",
+      scrub: true,
+      pin: true,
+      anticipatePin: 1,
+      pinSpacing: true,
+      markers: false,
+    });
+
+    return () => {
+      scrollTriggerInstance.kill();
+      textAnimation.kill();
+    };
+  }, []);
+
   return (
     <section
       id="section2"
-      ref={sectionRef}
+      ref={containerRef}
       className="relative flex items-center justify-center w-full h-screen bg-[#222]"
     >
-      <span className="absolute top-5 left-5 text-[2vw] colorText font-semibold leading-none">02.Skill Stack</span>
-      <div ref={textRef} className="text1 parallax__item__text text-3xl lg:text-[4rem]">협업 툴</div>
-      <div ref={textRef} className="text2 parallax__item__text text-3xl lg:text-[4rem]">git </div>
-      <div ref={textRef} className="text3 parallax__item__text text-3xl lg:text-[4rem]">github </div>
-      <div ref={textRef} className="text4 parallax__item__text text-3xl lg:text-[4rem]">VS Code </div>
-      <div ref={textRef} className="text5 parallax__item__text text-3xl lg:text-[4rem]">VS Studio </div>
-
-      {/* <div ref={textRef} className="text6 parallax__item__text t6">[2.협업 툴]</div> */}
-      <div ref={textRef} className="text7 parallax__item__text t7 text-3xl lg:text-[4rem]">Notion</div>
-      <div ref={textRef} className="text8 parallax__item__text t8 text-3xl lg:text-[4rem]">Photoshop</div>
-      <div ref={textRef} className="text9 parallax__item__text t9 text-3xl lg:text-[4rem]">Zeppelin</div>
-      <div ref={textRef} className="text10 parallax__item__text t10 text-3xl lg:text-[4rem]">Figma</div>
-      <div ref={textRef} className="text11 parallax__item__text t11 text-3xl lg:text-[4rem]">Jira</div>
-      <div ref={textRef} className="text12 parallax__item__text t12 text-3xl lg:text-[4rem]">Slack</div>
-
-      <div ref={textRef} className="text14 parallax__item__text t14 text-3xl lg:text-[4rem]">개발 언어</div>
-      <div ref={textRef} className="text15 parallax__item__text t15 text-3xl lg:text-[4rem]">HTML5</div>
-      <div ref={textRef} className="text16 parallax__item__text t16 text-3xl lg:text-[4rem]">CSS+SCSS</div>
-      <div ref={textRef} className="text17 parallax__item__text t17 text-3xl lg:text-[4rem]">JQuery</div>
-      <div ref={textRef} className="text18 parallax__item__text t18 text-3xl lg:text-[4rem]">javaScript</div>
-      <div ref={textRef} className="text19 parallax__item__text t19 text-3xl lg:text-[4rem]">React+GSAP</div>
-      <div ref={textRef} className="text20 parallax__item__text text-3xl lg:text-[4rem] colorText">
+      {[
+        "협업 툴", "git", "github", "VS Code", "VS Studio", "Notion", "Photoshop", "Zeppelin", "Figma", "Jira", "Slack",
+        "개발 언어", "HTML5", "CSS+SCSS", "JQuery", "javaScript", "React+GSAP"
+      ].map((text, index) => (
+        <div
+          key={index}
+          ref={(el) => (textRefs.current[index] = el)}  // 각 요소에 개별 ref 할당
+          className="parallax__item__text text-3xl lg:text-[4rem]"
+        >
+          {text}
+        </div>
+      ))}
+      {/* NEXT!!!!와 이미지 부분도 포함 */}
+      <div
+        ref={(el) => (textRefs.current[18] = el)}  // 18번째 요소로 ref 할당
+        className="parallax__item__text text-3xl lg:text-[4rem] colorText"
+      >
         NEXT!!!!
         <div className='se2Img'>
-          <img src="/exit.png" alt="비상구" className='se2Img__img'/>
+          <img src="/exit.png" alt="비상구" className='se2Img__img' />
         </div>
       </div>
-
     </section>
   );
 };

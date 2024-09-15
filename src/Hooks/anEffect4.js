@@ -19,7 +19,7 @@ const AnEffect4 = (triggerRef, gsapRefs) => {
             end: 'bottom 10px', //트리거 종료점
             scrub: 1, //스크롤과 애니메이션이 연동되도록 설정
             pin: true, 
-            markers: true, 
+            markers: false, 
           }
         });
 
