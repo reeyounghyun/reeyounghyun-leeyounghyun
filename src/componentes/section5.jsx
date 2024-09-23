@@ -83,14 +83,14 @@ const Section5 = () => {
             <span class="inline-block">경력 요약🤔</span>
           </h3>
           <div class="flex flex-col items-start">
-            <p class="lg:text-xl text-base font-bold leading-snug text-[#ccc] max-w-[600px] w-full whitespace-break-spaces break-keep">
+            <p class="lg:text-xl text-[12px] font-bold leading-snug text-[#ccc] max-w-[600px] w-full whitespace-break-spaces break-keep">
               "2019년부터 웹 개발 분야에서 다양한 프로젝트와 교육을 통해 퍼블리셔로서의 경력을 시작하였으며, HTML, CSS, JavaScript에 대한 탄탄한 기초를 바탕으로, 리액트와 같은 최신 프론트엔드 기술을 습득하고 적용해 왔습니다. 이를 통해 다양한 환경에서의 프로젝트 경험과 실무 능력을 쌓아, 폭넓은 기술 스택을 활용한 문제 해결 능력을 키웠습니다"
             </p>
           </div>
         </div>
         {/* title */}
         <ul className='itemBox'>
-          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer g:max-w-xs md:max-w-48 lg:w-full w-[350px]'>
+          <li ref={item01Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer g:max-w-xs md:max-w-48  lg:w-full md:w-[350px] w-[100%]'>
           <div className="second-item">
             {skillCategories.map((category, index) => (
               <div key={index} className="mb-6 text-black">
@@ -110,7 +110,7 @@ const Section5 = () => {
             ))}
             </div>
           </li>
-          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs md:max-w-48 lg:w-full w-[350px]'>
+          <li ref={item02Ref} className='list-bg rounded-3xl px-5 py-5 cursor-pointer lg:max-w-xs md:max-w-48 lg:w-full md:w-[350px] w-[100%]'>
             <div className="third-item">
               {skillCategories2.map((category, index) => (
                 <div key={index} className="mb-6">
