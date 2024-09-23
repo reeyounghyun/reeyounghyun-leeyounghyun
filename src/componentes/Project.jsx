@@ -39,9 +39,10 @@ const Project = () => {
         <div ref={el => sectionsRef.current[1] = el} className='w-full h-[110vh]'>
             <div className="bg-[#5f5c53] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between">
-                    <li className="w-1/2">
+                    <li className="w-1/2 project-list-item">
                         <a href="https://fundaykorea.com/" alt="펀데이코리아" target='blank'>
-                            <p className="w-full">
+                            <p className="w-full img-wrap">
+                                <span className="link">Click!!</span>
                                 <img src="pc/porject2.png" alt="펀데이코리아" className="w-full" />
                             </p>
                         </a>
@@ -52,7 +53,7 @@ const Project = () => {
                             <div className='w-[60%]'>
                                 <p className="text-[19px] pt-[3rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     패키지여행 예약 및 리뷰,체험단 모집 등 이벤트를 이용할 수 있는 웹 페이지입니다.
-                                    JSX로 메인 페이지를 제외한 <strong className='text-white font-bold'>서브페이지(70%)</strong>를 진행 했으며
+                                    JSX언어로 퍼블리싱 진행하여 메인 페이지를 제외한 <strong className='text-white font-bold'>서브페이지(70%)</strong>를 진행 했으며
                                     CSS 프레임워크 <strong className='text-white font-bold'>Tailwind</strong>를 이용하여 작업 속도를 향상시켜 UI 구현하는 기간을 단축 하는데 도움이 되었습니다.
                                 </p>
                             </div>
@@ -80,20 +81,21 @@ const Project = () => {
         <div ref={el => sectionsRef.current[0] = el} className='w-full h-[110vh]'>
             <div className="bg-[#0a3651] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between lg:flex-row flex-wrap">
-                    <li className="w-1/2">
+                    <li className="w-1/2 project-list-item">
                         <a href="https://jaramc.com/" alt="자람콘텐츠" target='blank'>
-                            <p className="w-full">
+                            <p className="w-full img-wrap">
+                                <span className="link">Click!!</span>
                                 <img src="pc/porject1.png" alt="자람콘텐츠" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="w-1/2 pt-[150px] pl-[100px] box-border">
                         <div className="mb-[30px]">
-                            <h2 className='text-[100px] leading-[0.9] '>자람콘텐츠</h2>
+                            <h2 className='text-[100px] leading-[0.9]'>자람콘텐츠</h2>
                             <div className='w-[60%]'>
                                 <p className="text-[19px] pt-[3rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     자람 콘텐츠는 체험학습 예약, 교육 프로그램 제공 및 온라인 학습에 필요한 자료 제공하는 웹 사이트입니다. <br/>
-                                    <strong className='text-white font-bold'>JSX와 SCSS를</strong> 이용하여 Component 개발하였으며 <strong className='text-white font-bold'>Media Query를</strong> 사용하여 반응형 구현했습니다.
+                                    <strong className='text-white font-bold'>JSX언어로 퍼블리싱 진행, SCSS를</strong> 이용하여 Component 개발하였으며 <strong className='text-white font-bold'>Media Query를</strong> 사용하여 반응형 구현했습니다.
                                 </p>
                             </div>
                         </div>
@@ -120,9 +122,10 @@ const Project = () => {
         <div ref={el => sectionsRef.current[2] = el} className='w-full h-[110vh]'>
             <div className="bg-[#222] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between">
-                    <li className="w-1/2">
+                    <li className="w-1/2 project-list-item">
                         <a href="https://soribit.limefriends.com/"  alt="소리빛" target='blank'>
-                            <p className="w-full">
+                            <p className="w-full img-wrap">
+                                <span className="link">Click!!</span>
                                 <img src="pc/project3.png" alt="소리빛" className="w-full" />
                             </p>
                         </a>
@@ -133,7 +136,7 @@ const Project = () => {
                             <div className='w-[60%]'>
                                 <p className="text-[19px] pt-[3rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     청각 및 언어 발달에 관련된 프로그램 소개와 서비스를 이용할 수 있는 웹페이지 입니다.
-                                    <strong className='text-white font-bold'>PHP 개발 환경에서 퍼블리싱</strong> 진행하였으며, 
+                                        <strong className='text-white font-bold'>PHP 개발 환경에서 퍼블리싱</strong> 진행하였으며, 
                                     <strong className='text-white font-bold'>그누보드</strong>를 이용하여 게시판 수정하였습니다.
                                     피그마를 통해 전체UI를 구현했으며 <strong className='text-white font-bold'>퍼블리싱 기간은 4주</strong> 소요됐습니다.
                                 </p>
@@ -162,9 +165,10 @@ const Project = () => {
         <div ref={el => sectionsRef.current[3] = el} className='w-full h-[110vh]'>
             <div className="bg-[#545454] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between">
-                    <li className="w-1/2">
+                    <li className="w-1/2 project-list-item">
                         <a href="https://cancertainment.com/" alt="박피디와황배우" target='blank' >
-                            <p className="w-full">
+                            <p className="w-full img-wrap">
+                                <span className="link">Click!!</span>
                                 <img src="pc/project4.png" alt="박피디와황배우" className="w-full" />
                             </p>
                         </a>
@@ -204,9 +208,10 @@ const Project = () => {
         <div ref={el => sectionsRef.current[4] = el} className='w-full h-[110vh]'>
             <div className="bg-[#0a3651] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between">
-                    <li className="w-1/2">
+                    <li className="w-1/2 project-list-item">
                         <a href="https://winwin.medif.or.kr/" alt="메디프" target='blank'>
-                            <p className="w-full">
+                            <p className="w-full img-wrap">
+                                <span className="link">Click!!</span>
                                 <img src="pc/project6.png" alt="메디프" className="w-full" />
                             </p>
                         </a>

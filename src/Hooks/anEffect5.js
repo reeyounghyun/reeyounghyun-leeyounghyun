@@ -14,7 +14,7 @@ const AnEffect5 = (triggerRef, gsapRefs) => {
           scrollTrigger: {
             trigger: triggerRef.current, 
             start: 'top top', 
-            end: '+=6000 top', 
+            end: '+=2000 top', 
             scrub: true, 
             pin: true, 
             anticipatePin: 1,
@@ -41,7 +41,7 @@ const AnEffect5 = (triggerRef, gsapRefs) => {
           scrollTrigger: {
             trigger: triggerRef.current, 
             start: 'top top', 
-            end: '+=3000 top',
+            end: '+=5000 top',
             scrub: true, 
             pin: true, 
             anticipatePin: 1,

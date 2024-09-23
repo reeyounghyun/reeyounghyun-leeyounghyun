@@ -467,3 +467,33 @@ body {
     font-size: 1.4rem;
   }
 }
+
+.project-list-item{
+  position: relative;
+}
+
+.img-wrap{
+  position: relative;
+}
+
+.img-wrap .link{
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+  color: #000;
+  background: #efefef;
+  padding: 5rem;
+  border-radius: 15% 4% 15% 4%;
+  border: 1px solid #000000;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.project-list-item:hover  .img-wrap .link{
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+

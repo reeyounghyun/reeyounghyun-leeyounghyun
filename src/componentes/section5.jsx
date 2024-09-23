@@ -4,7 +4,8 @@ import { useRef } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import AnEffect5 from 'Hooks/anEffect5';
 
-gsap.registerPlugin(ScrollTrigger); // 스크롤트리커 등록 : 이 부분부터 스크롤트리거 작성한다고 함수등록
+gsap.registerPlugin(ScrollTrigger); 
+// 스크롤트리커 등록 : 이 부분부터 스크롤트리거 작성한다고 함수등록
 
 const skillCategories = [
   {
@@ -12,23 +13,23 @@ const skillCategories = [
     experiences: [
       {
         project: "워크스타일",
-        description: "소리아월펫 프로젝트 수행",
-        skills: ["UI/UX", "Html+css"]
+        description: "소리아월렛 프로젝트 수행",
+        skills: ["UI/UX", "Html+CSS"]
       },
       {
         project: "라임프렌즈",
         description: "자사 플랫폼 개발 및 외주 프로젝트 수행",
-        skills: ["UI/UX", "Html+css", "JavaScript", "React"]
+        skills: ["UI/UX", "Html+CSS", "JavaScript", "React"]
       },
       {
         project: "이트라이브",
         description: "롯데 계열사 유지보수",
-        skills: ["UI/UX", "Html+css", "JavaScript"]
+        skills: ["UI/UX", "Html+CSS", "JavaScript"]
       },
       {
         project: "와이지엔",
         description: "자사 플랫폼 개발 및 외주 프로젝트",
-        skills: ["UI/UX", "Html+css", "Jqeuy"]
+        skills: ["UI/UX", "Html+CSS", "Jqeuy"]
       }
     ]
   }
@@ -86,7 +87,6 @@ const Section5 = () => {
               "2019년부터 웹 개발 분야에서 다양한 프로젝트와 교육을 통해 퍼블리셔로서의 경력을 시작하였으며, HTML, CSS, JavaScript에 대한 탄탄한 기초를 바탕으로, 리액트와 같은 최신 프론트엔드 기술을 습득하고 적용해 왔습니다. 이를 통해 다양한 환경에서의 프로젝트 경험과 실무 능력을 쌓아, 폭넓은 기술 스택을 활용한 문제 해결 능력을 키웠습니다"
             </p>
           </div>
-        ,.//.,[]\;,.[]][[:]]
         </div>
         {/* title */}
         <ul className='itemBox'>
