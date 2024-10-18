@@ -84,7 +84,7 @@ const Section5 = () => {
           </h3>
           <div class="flex flex-col items-start">
             <p class="lg:text-xl text-[12px] font-bold leading-snug text-[#ccc] max-w-[600px] w-full whitespace-break-spaces break-keep">
-              "2019년부터 웹 개발 분야에서 다양한 프로젝트와 교육을 통해 퍼블리셔로서의 경력을 시작하였으며, HTML, CSS, JavaScript에 대한 탄탄한 기초를 바탕으로, 리액트와 같은 최신 프론트엔드 기술을 습득하고 적용해 왔습니다. 이를 통해 다양한 환경에서의 프로젝트 경험과 실무 능력을 쌓아, 폭넓은 기술 스택을 활용한 문제 해결 능력을 키웠습니다"
+              HTML, CSS, JavaScript를 기반으로 웹 퍼블리싱 기술을 탄탄하게 익혀왔으며, 다양한 프로젝트에서 웹 접근성, 크로스 브라우징 등 기본적인 퍼블리셔 역량을 항상 중시하며 준수해왔습니다. UX/UI 화면을 구현하는 데 즐거움을 느끼며, React, Next.js와 같은 라이브러리를 학습해 퍼블리싱 업무를 확장하고, 더 나아가 기술적 고도화를 이루기 위해 꾸준히 노력하고 있습니다.
             </p>
           </div>
         </div>
