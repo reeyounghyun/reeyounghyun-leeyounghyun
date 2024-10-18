@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const skillCategories = [
   {
-    title: "웹 개발 프로젝트",
+    title: "경력",
     experiences: [
       {
         project: "라임프렌즈",
