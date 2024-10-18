@@ -12,11 +12,6 @@ const skillCategories = [
     title: "웹 개발 프로젝트",
     experiences: [
       {
-        project: "워크스타일",
-        description: "소리아월렛 프로젝트 수행",
-        skills: ["UI/UX", "Html+CSS"]
-      },
-      {
         project: "라임프렌즈",
         description: "자사 플랫폼 개발 및 외주 프로젝트 수행",
         skills: ["UI/UX", "Html+CSS", "JavaScript", "React"]
