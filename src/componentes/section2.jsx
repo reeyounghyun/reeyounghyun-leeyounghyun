@@ -46,7 +46,7 @@ const Section2 = () => {
       className="relative flex items-center justify-center w-full h-screen bg-[#222]"
     >
       {[
-        "협업 툴", "git", "github", "VS Code", "VS Studio", "Notion", "Photoshop", "Zeppelin", "Figma", "Jira", "Slack",
+        "협업 툴", "git", "github", "VS Code", "VS Studio","CMS", "Notion", "Photoshop", "Zeppelin", "Figma", "Jira", "Slack",
         "개발 언어", "HTML5", "CSS+SCSS", "JQuery", "javaScript", "React+GSAP"
       ].map((text, index) => (
         <div
