@@ -481,13 +481,15 @@ body {
   top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.7rem;
-  color: #000;
-  background: #efefef;
-  padding: 5rem;
-  border-radius: 15% 4% 15% 4%;
-  border: 1px solid #000000;
+  font-size: 15px;
   transition: all 0.5s;
+  width: 100px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: right;
+  padding-right: 16px;
+  color: #ffffff;
+  background: #0075c2;
   opacity: 0;
 }
 
