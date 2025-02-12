@@ -12,6 +12,11 @@ const skillCategories = [
     title: "경력",
     experiences: [
       {
+        project: "엘루오씨엔씨씨",
+        description: "에이전시, KT닷컴 유지보수수",
+        skills: ["UI/UX", "Html+CSS", "JavaScript"]
+      },
+      {
         project: "라임프렌즈",
         description: "자사 플랫폼 개발 및 외주 프로젝트 수행",
         skills: ["UI/UX", "Html+CSS", "JavaScript", "React"]

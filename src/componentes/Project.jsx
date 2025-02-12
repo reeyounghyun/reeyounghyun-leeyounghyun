@@ -37,19 +37,19 @@ const Project = () => {
   return (
     <section className='w-full pb-[100vh] relative mx-auto my-0 bg-black overflow-hidden'>
         <div ref={el => sectionsRef.current[1] = el} className='w-full h-[110vh]'>
-            <div className="bg-[#5f5c53] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
+            <div className="bg-[#000] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between md:flex-row flex-col md:py-0 py-[5rem]">
                     <li className="md:w-1/2 w-[65%] mx-auto project-list-item">
                         <a href="https://shop.kt.com/deal/pick.do" alt="케이티닷컴" target='blank'>
                             <p className="w-full img-wrap">
                                 <span className="link">Click!!</span>
-                                <img src="pc/porject8.png" alt="케이티닷컴" className="w-full" />
+                                <img src="/pc/project8.png" alt="케이티닷컴" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] '>케이티닷컴</h2>
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text text-[#FF0000]'>KT닷컴</h2>
                             <div className='md:w-[60%] w-full'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     패키지여행 예약 및 리뷰,체험단 모집 등 이벤트를 이용할 수 있는 웹 페이지입니다.
@@ -84,13 +84,13 @@ const Project = () => {
                     <li className="md:w-1/2 w-[65%] mx-auto ">
                         <a href="/">
                             <p className="w-full">
-                                <img src="pc/project7.png" alt="" className="w-full" />
+                                <img src="/pc/project7.png" alt="" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9]'>롯데</h2>
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#C40452]'>롯데</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     롯데 계열사 '롯데월드 세븐일레븐 롯데리조트 롯데스카이힐' 등 프로젝트에 참여하여
@@ -122,19 +122,19 @@ const Project = () => {
             </div>
         </div>
         <div ref={el => sectionsRef.current[3] = el} className='w-full h-[110vh]'>
-            <div className="bg-[#5f5c53] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
+            <div className="bg-[#000] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between md:flex-row flex-col md:py-0 py-[5rem]">
                     <li className="md:w-1/2 w-[65%] mx-auto project-list-item">
                         <a href="https://fundaykorea.com/" alt="펀데이코리아" target='blank'>
                             <p className="w-full img-wrap">
                                 <span className="link">Click!!</span>
-                                <img src="pc/porject2.png" alt="펀데이코리아" className="w-full" />
+                                <img src="/pc/porject2.png" alt="펀데이코리아" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] '>펀데이코리아</h2>
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#0075C2]'>펀데이코리아</h2>
                             <div className='md:w-[60%] w-full'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     패키지여행 예약 및 리뷰,체험단 모집 등 이벤트를 이용할 수 있는 웹 페이지입니다.
@@ -164,19 +164,19 @@ const Project = () => {
             </div>
         </div>
         <div ref={el => sectionsRef.current[4] = el} className='w-full h-[110vh]'>
-            <div className="bg-[#545454] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
+            <div className="bg-[#000] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between md:flex-row flex-col md:py-0 py-[5rem]">
                     <li className="md:w-1/2 w-[65%] mx-auto project-list-item">
                         <a href="https://cancertainment.com/" alt="박피디와황배우" target='blank' >
                             <p className="w-full img-wrap">
                                 <span className="link">Click!!</span>
-                                <img src="pc/project4.png" alt="박피디와황배우" className="w-full" />
+                                <img src="/pc/project4.png" alt="박피디와황배우" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9]  '>박피디와황배우</h2>
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#ff6a2a]  '>박피디와황배우</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     청각 및 언어 발달에 관련된 프로그램 소개와 서비스를 이용할 수 있는 웹페이지입니다.
