@@ -65,10 +65,11 @@ const Project = () => {
                                 메인(타임딜), 서브(5시핫픽) 유지보수
                             </p>
                             <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
-                                <li>CMS</li>
+                                <li>#CMS</li>
                                 <li>#HTML</li>
                                 <li>#CSS</li>
-                                <li>#JavaScript</li>
+                                <li>#협업</li>
+                                <li>#유지보수</li>
                             </ul>
                         </div>
                     </li>
