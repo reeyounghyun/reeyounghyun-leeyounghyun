@@ -59,7 +59,7 @@ const Project = () => {
                             </div>
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
-                            <span className="block">``
+                            <span className="block">
                                 <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
                                 퍼블1명 디자인 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
