@@ -54,12 +54,12 @@ const Project = () => {
                             <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text text-[#FF0000]'>KT닷컴</h2>
                             <div className='md:w-[60%] w-full'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
-                                    KT닷컴 메인 타임딜과 서브 5시핫픽 페이지의 유지보수를 CMS를 활용해 진행했습니다. <strong className='text-white font-bold'>타임딜은</strong> 월, 수, 금마다 새로운 배너가 업데이트되는 이벤트 영역이며, <strong className='text-white font-bold'>5시핫픽은</strong> 매주 수요일 업데이트되는 이벤트 서브페이지입니다. CMS에 디자이너가 제공한 이미지를 등록하고 서버에 업로드했으며, 기획서를 확인한 후 HTML과 CSS를 수정하여 반영하는 작업을 수행했습니다.
+                                    KT닷컴 메인_타임딜과 서브_5시핫픽 유지보수를 진행했습니다. <strong className='text-white font-bold'>타임딜은</strong> 월, 수, 금마다 배너가 업데이트되는 이벤트 영역이며 CMS를 통해 코드를 수정하였습니다. <strong className='text-white font-bold'>5시핫픽은</strong> 매주 수요일 업데이트되는 이벤트이며, 서버에 등록한 이미지와 기획서를 바탕으로 HTML과 CSS를 수정하여 반영하는 작업을 수행했습니다.
                                 </p>
                             </div>
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
-                            <span className="block">
+                            <span className="block">``
                                 <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
                                 퍼블1명 디자인 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
@@ -98,7 +98,7 @@ const Project = () => {
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     패키지여행 예약 및 리뷰,체험단 모집 등 이벤트를 이용할 수 있는 웹 페이지입니다.
                                     JSX언어로 퍼블리싱 진행하여 메인 페이지를 제외한 <strong className='text-white font-bold'>서브페이지(70%)</strong>를 진행 했으며
-                                    CSS 프레임워크 <strong className='text-white font-bold'>Tailwind</strong>를 이용하여 작업 속도를 향상시켜 UI 구현하는 기간을 단축 하는데 도움이 되었습니다.
+                                    CSS 프레임워크 <strong className='text-white font-bold'>Tailwind</strong>를 이용하여 작업 속도를 향상시켜 UI 구현하는 기간을 단축하였습니다.
                                 </p>
                             </div>
                         </div>
@@ -220,13 +220,13 @@ const Project = () => {
                                 <div className="link">
                                     <span className="text-center blcok">이동하기</span>
                                 </div>
-                                <img src="/pc/project7.png" alt="롯데" className="w-full" />
+                                <img src="/pc/project7.png" alt="롯데 프로젝트" className="w-full" />
                             </p>
                         </a>
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#C40452]'>롯데</h2>
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#C40452]'>롯데 프로젝트</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                 <strong className='text-white font-bold'>롯데 계열사 '롯데월드 세븐일레븐 롯데리조트 롯데스카이힐'</strong> 등 프로젝트에 참여하여
