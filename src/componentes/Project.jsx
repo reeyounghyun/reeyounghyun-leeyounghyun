@@ -237,7 +237,7 @@ const Project = () => {
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
                             <span className="block  md:mx-0 w-[85%] mx-auto">
-                                <strong className='text-[16px] pb-2'>[유지 보수]</strong>
+                                <strong className='text-[16px] pb-2 font-bold'>[유지 보수]</strong>
                                 <br/> 
                                 <span classNaem="block"><strong  className='text-white' font-bold >스타일 가이드</strong>를 준수하여 CSS를 사용하여 프로젝트 규칙에 어긋나지 않도록 진행</span>
                                 <span classNaem="block">프로젝트 관리와 이슈를 체크하기 위해 Jira를 사용하여 효율적으로 작업을 관리</span>

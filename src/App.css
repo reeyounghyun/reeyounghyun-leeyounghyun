@@ -254,7 +254,7 @@ body {
   background-color: #333;
 }
 
-.title{font-family: "JalnanGothic","Noto Sans KR", sans-serif;}
+.title{font-family: "JalnanGothic","Noto Sans KR", sans-serif; font-weight: 400;}
 
 /* GSAP 공통 */
 .parallax__item {
