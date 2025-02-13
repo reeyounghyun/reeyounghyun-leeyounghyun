@@ -228,18 +228,19 @@ p{
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
+
 @font-face {
-  font-family: 'Paperlogy-8ExtraBold';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-family: 'JalnanGothic';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-* {
-  font-family: "Pretendard-Regular","Noto Sans KR", sans-serif;
+/* * {
+  font-family: "JalnanGothic", "Pretendard-Regular","Noto Sans KR", sans-serif;
   margin: 0;
   padding: 0;
-}
+} */
 
 a{
   color: #fff;
@@ -248,10 +249,12 @@ a{
 
 body {
   color: #fff;
-  font-family: "NexonLv1Gothic";
+  font-family:  "Pretendard-Regular","Noto Sans KR", sans-serif;
   font-weight: 300;
   background-color: #333;
 }
+
+.title{font-family: "JalnanGothic","Noto Sans KR", sans-serif;}
 
 /* GSAP 공통 */
 .parallax__item {

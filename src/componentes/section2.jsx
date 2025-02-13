@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import "../App.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -43,7 +44,7 @@ const Section2 = () => {
     <section
       id="section2"
       ref={containerRef}
-      className="relative flex items-center justify-center w-full h-screen bg-[#222]"
+      className="relative flex items-center justify-center w-full h-screen bg-[#222] subTitle"
     >
       {[
         "협업 툴", "git", "github", "VS Code", "VS Studio","CMS", "Notion", "Photoshop", "Zeppelin", "Figma", "Jira", "Slack",

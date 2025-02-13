@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import gsap from 'gsap';
 import { useRef } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "../App.css";
 
 const Project = () => {
     gsap.registerPlugin(ScrollTrigger);
@@ -51,7 +52,7 @@ const Project = () => {
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text text-[#FF0000]'>KT닷컴</h2>
+                            <h2 className='md:text-[62px] text-[40px] md:text-left text-center leading-[0.9] text text-[#FF0000] title'>KT닷컴</h2>
                             <div className='md:w-[60%] w-full'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     KT닷컴 메인_타임딜과 서브_5시핫픽 유지보수를 진행했습니다. <strong className='text-white font-bold'>타임딜은</strong> 월, 수, 금마다 배너가 업데이트되는 이벤트 영역이며 CMS를 통해 코드를 수정하였습니다. <strong className='text-white font-bold'>5시핫픽은</strong> 매주 수요일 업데이트되는 이벤트이며, 서버에 등록한 이미지와 기획서를 바탕으로 HTML과 CSS를 수정하여 반영하는 작업을 수행했습니다.
@@ -60,10 +61,10 @@ const Project = () => {
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
                             <span className="block">
-                                <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
+                                <strong className='text-[16px] pb-2 font-bold'>[참여 인원]</strong><br/> 
                                 퍼블1명 디자인 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
-                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                <strong className='text-[16px] pb-2 font-bold'>[작업 기여도]</strong><br/>
                                 메인(타임딜), 서브(5시핫픽) 유지보수
                             </p>
                             <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
@@ -93,7 +94,7 @@ const Project = () => {
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#0075C2]'>펀데이코리아</h2>
+                            <h2 className='md:text-[62px] text-[40px] md:text-left text-center leading-[0.9] text-[#0075C2] title'>펀데이코리아</h2>
                             <div className='md:w-[60%] w-full'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     패키지여행 예약 및 리뷰,체험단 모집 등 이벤트를 이용할 수 있는 웹 페이지입니다.
@@ -104,10 +105,10 @@ const Project = () => {
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
                             <span className="block">
-                                <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
+                                <strong className='text-[16px] pb-2 font-bold'>[참여 인원]</strong><br/> 
                                 기획1명 디자인 1명 프론트2명 백앤드 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
-                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                <strong className='text-[16px] pb-2 font-bold'>[작업 기여도]</strong><br/>
                                 서브페이지 페이지 구축 <br/> 
                                 (60% UI 구현했습니다)
                             </p>
@@ -137,7 +138,7 @@ const Project = () => {
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#ff6a2a]'>박피디와황배우</h2>
+                            <h2 className='md:text-[62px] text-[40px] md:text-left text-center leading-[0.9] text-[#ff6a2a] title'>박피디와황배우</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     <strong className='text-white font-bold'>PHP 개발 환경에서 퍼블리싱</strong> 진행하였으며
@@ -148,10 +149,10 @@ const Project = () => {
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
                             <span className="block">
-                                <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
+                                <strong className='text-[16px] pb-2 font-bold'>[참여 인원]</strong><br/> 
                                 기획1명 디자인 1명 프론트1명 백앤드 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
-                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                <strong className='text-[16px] pb-2 font-bold'>[작업 기여도]</strong><br/>
                                 반응형 웹페이지 구축&유지 보수 <br/> 
                                 (70% 사용자UI 구현했습니다)
                             </p>
@@ -181,7 +182,7 @@ const Project = () => {
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#FFA800]'>소리빛</h2>
+                            <h2 className='md:text-[62px] text-[40px] md:text-left text-center leading-[0.9] text-[#FFA800] title'>소리빛</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                     청각 및 언어 발달에 관련된 프로그램 소개와 서비스를 이용할 수 있는 웹페이지입니다.
@@ -193,10 +194,10 @@ const Project = () => {
                         </div>
                         <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
                             <span className="block">
-                                <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
+                                <strong className='text-[16px] pb-2 font-bold'>[참여 인원]</strong><br/> 
                                 기획1명 디자인 1명 퍼블1 프론트1명 백앤드 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
-                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                <strong className='text-[16px] pb-2 font-bold'>[작업 기여도]</strong><br/>
                                 반응형 웹페이지 구축&유지 보수 <br/> 
                                 (100% 사용자UI 구현했습니다)
                             </p>
@@ -226,7 +227,7 @@ const Project = () => {
                     </li>
                     <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
                         <div className="mb-[30px]">
-                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#C40452]'>롯데 프로젝트</h2>
+                            <h2 className='md:text-[62px] text-[40px] md:text-left text-center leading-[0.9] text-[#C40452] title'>롯데 프로젝트</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
                                 <strong className='text-white font-bold'>롯데 계열사 '롯데월드 세븐일레븐 롯데리조트 롯데스카이힐'</strong> 등 프로젝트에 참여하여
@@ -238,12 +239,12 @@ const Project = () => {
                             <span className="block  md:mx-0 w-[85%] mx-auto">
                                 <strong className='text-[16px] pb-2'>[유지 보수]</strong>
                                 <br/> 
-                                <span classNaem="block"><strong  className='text-white font-bold'>스타일 가이드</strong>를 준수하여 CSS를 사용하여 프로젝트 규칙에 어긋나지 않도록 진행</span>
+                                <span classNaem="block"><strong  className='text-white' font-bold >스타일 가이드</strong>를 준수하여 CSS를 사용하여 프로젝트 규칙에 어긋나지 않도록 진행</span>
                                 <span classNaem="block">프로젝트 관리와 이슈를 체크하기 위해 Jira를 사용하여 효율적으로 작업을 관리</span>
                                 <span classNaem="block">웹 사이트의 텍스트와 이미지를 정기적으로 업데이트하여 최신 정보를 제공</span>
                             </span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
-                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                <strong className='text-[16px] pb-2 font-bold'>[작업 기여도]</strong><br/>
                                 최신 정보를 유지하기 위한 유지 보수
                             </p>
                             <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
