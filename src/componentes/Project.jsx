@@ -152,7 +152,7 @@ const Project = () => {
                                 기획1명 디자인 1명 프론트1명 백앤드 1명</span>
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
                                 <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
-                                소리 빛 반응형 웹페이지 구축&유지 보수 <br/> 
+                                반응형 웹페이지 구축&유지 보수 <br/> 
                                 (100% 사용자UI 구현했습니다)
                             </p>
                             <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
