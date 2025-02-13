@@ -153,7 +153,7 @@ const Project = () => {
                             <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
                                 <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
                                 반응형 웹페이지 구축&유지 보수 <br/> 
-                                (100% 사용자UI 구현했습니다)
+                                (70% 사용자UI 구현했습니다)
                             </p>
                             <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
                                 <li>#HTML</li>
@@ -167,6 +167,51 @@ const Project = () => {
             </div>
         </div>
         <div ref={el => sectionsRef.current[4] = el} className='w-full h-[110vh]'>
+            <div className="bg-[#000] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
+                <ul className="flex justify-between md:flex-row flex-col md:py-0 py-[5rem]">
+                    <li className="md:w-1/2 w-[65%] mx-auto project-list-item">
+                        <a href="http://soribit.kr/" alt="소리빛" target='blank' >
+                            <p className="w-full img-wrap">
+                                <div className="link">
+                                    <span className="text-center blcok">이동하기</span>
+                                </div>
+                                <img src="/pc/project3.png" alt="소리빛" className="w-full" />
+                            </p>
+                        </a>
+                    </li>
+                    <li className="md:w-1/2 w-full md:pt-[150px] pt-0 md:pl-[100px] pl-0 box-border">
+                        <div className="mb-[30px]">
+                            <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#FFA800]'>소리빛</h2>
+                            <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
+                                <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
+                                    청각 및 언어 발달에 관련된 프로그램 소개와 서비스를 이용할 수 있는 웹페이지입니다.
+                                    <strong className='text-white font-bold'>PHP 개발 환경에서 퍼블리싱</strong> 진행하였으며
+                                    제플린을 이용하여 사용자 UI 구축 및 유지보수 진행했습니다.
+                                    HTML,CSS,JavaScript를 이용하여 메인&서브 페이지 <strong className='text-white font-bold'>(100%)</strong>를 Media Query를 이용하여 구현했습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="md:w-[60%] w-full md:text-left text-center text-[14px] leading-[1.5]">
+                            <span className="block">
+                                <strong className='text-[16px] pb-2'>[참여 인원]</strong><br/> 
+                                기획1명 디자인 1명 퍼블1 프론트1명 백앤드 1명</span>
+                            <p className="mb-[30px] pt-8 tracking-[-1px] break-keep">
+                                <strong className='text-[16px] pb-2'>[작업 기여도]</strong><br/>
+                                반응형 웹페이지 구축&유지 보수 <br/> 
+                                (100% 사용자UI 구현했습니다)
+                            </p>
+                            <ul className='flex flex-wrap md:justify-start justify-center gap-3 text-sm text-[#ccc]'>
+                                <li>#HTML</li>
+                                <li>#PHP</li>
+                                <li>#협업</li>
+                                <li>#반응형</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div ref={el => sectionsRef.current[5] = el} className='w-full h-[110vh]'>
             <div className="bg-[#000] text-white rounded-t-[50px] shadow-[0px_0px_30px_rgba(0,0,0,0.3)] overflow-hidden">
                 <ul className="flex justify-between md:flex-row flex-col md:py-0 py-[5rem]">
                     <li className="md:w-1/2 w-[65%] mx-auto ">
