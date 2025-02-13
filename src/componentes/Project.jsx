@@ -140,7 +140,6 @@ const Project = () => {
                             <h2 className='md:text-[100px] text-[40px] md:text-left text-center leading-[0.9] text-[#ff6a2a]'>박피디와황배우</h2>
                             <div className='md:w-[60%] md:mx-0 w-[85%] mx-auto'>
                                 <p className="md:text-[19px] text-[14px] md:text-left text-center md:pt-[3rem] pt-[1rem] mb-[30px] break-keep text-[#e9e9e9]">
-                                    청각 및 언어 발달에 관련된 프로그램 소개와 서비스를 이용할 수 있는 웹페이지입니다.
                                     <strong className='text-white font-bold'>PHP 개발 환경에서 퍼블리싱</strong> 진행하였으며
                                     제플린을 이용하여 사용자 UI 구축 및 유지보수 진행했습니다.
                                     HTML,CSS,JavaScript를 이용하여 메인페이지를 제외한 <strong className='text-white font-bold'>서브페이지(70%)</strong>를 Media Query를 이용하여 구현했습니다.
